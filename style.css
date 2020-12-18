@@ -1,0 +1,156 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.description {
+  width: 440px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: normal;
+  color: #000;
+}
+
+p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+}
+
+.role {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  writing-mode: vertical-rl;
+  margin-left: 10px;
+}
+
+img {
+  margin-bottom: 15px;
+  width: 237px;
+  height: 341px;
+}
+
+.header {
+  margin-bottom: 63px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 109px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.photo_role {
+  display: flex;
+}
+
+.teammate1 {
+  margin: auto;
+}
+
+.teammate2 {
+  margin: auto;
+  margin-top: 120px;
+}
+
+.teammate3 {
+  margin: auto;
+}
+
+.teammate4 {
+  margin: auto;
+}
+
+.teammate5 {
+  margin: auto;
+  margin-top: 120px;
+}
+
+.teammate6 {
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    margin-bottom: 38px;
+  }
+  .header {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: grid;
+    gap: 26px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .teammate1 {
+    margin: auto;
+    grid-column: 1 / span 1;
+  }
+
+  .teammate2 {
+    margin-top: 120px;
+    grid-column: 2 / span 1;
+  }
+
+  .teammate3 {
+    margin: auto;
+    grid-column: 1 / span 1;
+  }
+
+  .teammate4 {
+    margin-top: 120px;
+    grid-column: 2 / span 1;
+  }
+
+  .teammate5 {
+    margin: auto;
+    grid-column: 1 / span 1;
+  }
+
+  .teammate6 {
+    margin-top: 120px;
+    grid-column: 2 / span 1;
+  }
+}
