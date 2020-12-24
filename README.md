@@ -58,4 +58,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@Fixito](https://{github.com/Fixito})
+- GitHub [@Fixito](github.com/Fixito)
